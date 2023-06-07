@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(57, 39, 80);
+}
+
+.content{
+    max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus{
+    color: white;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.todos li {
+    background-color: rgb(92, 69, 110);
+    border: 0;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.filtered{
+    display: none !important;
+}
+
+@media screen and (max-width: 430px){
+    .content{
+        padding: 3vh;
+    }
+}
